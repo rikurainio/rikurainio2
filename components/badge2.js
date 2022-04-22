@@ -24,22 +24,25 @@ const Badge2 = ({title, handle, url, }) => {
     }
 
     return (
-        <motion.div
-            className="container2-badge"
-            whileHover={{scale: 1, transition: { duration: 0.01 }}}    
-        >
-            <div className="badge2-links">
-                <Link href={url}><img className='badge2-link-img' src={getCorrectIconSrc(title)}></img></Link>
-            </div>
-            <div className="badge2-socials-details">
-                {title}
-                <div>
-                {handle}
+        <Link href={url}>
+            <motion.div
+                className="container2-badge"
+                whileHover={{scale: 1, transition: { duration: 0.01 }}}    
+            >
+                <div className="badge2-links">
+                    <img className='badge2-link-img' src={getCorrectIconSrc(title)}></img>
                 </div>
-            </div>
-            
-            
-        </motion.div>
+                <div className="badge2-socials-details">
+                    {title}
+                    <div className='badge2-handle'>
+                    {handle}
+                    </div>
+                </div>
+                
+                
+            </motion.div>
+        </Link>
+        
     )
 }
 

@@ -1,53 +1,29 @@
 .container2-badge {
     width: 15em;
-    max-height: 20em;
-    margin-left: 1rem;
     margin-right: 1rem;
-    padding: 1.5rem;
+    padding: 1rem;
     background-color: rgba(228, 228, 228, 0.658);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
 
     display: flex;
+    cursor: pointer;
 }
 
-.badge2-title {
-    font-size: 32px;
-    font-weight: 500;
-}
-
-.badge2-links {
-    display: flex;
+.badge2-handle {
+    font-weight: 300;
 }
 
 .badge2-link-img {
     padding-left: .3rem;
-    padding-right: .3rem;
-    width: 2rem;
-    height: 2rem;
-
+    padding-right: .6rem;
+    width: 2.7rem;
     cursor: pointer;
+
+    -webkit-transform: translateZ(0); /* Chrome, Safari, Opera */
+    transform: translateZ(0);
 }
 
-.badge2-link-img:hover {
-    filter: invert(22%) sepia(74%) saturate(5058%) hue-rotate(267deg) brightness(86%) contrast(102%);
-}
-
-.badge2-technique-tags {
-    margin-top: 1rem;
-}
-
-.badge2-tech-tag {
-    display: inline-block;
-
-    margin: .15rem;
-    padding: .25rem;
-    font-size: 16px;
-    font-weight: 300;
-    border: 1px solid rgb(147, 39, 248);
-    color: whi;
-    border-radius: 5px;
-}
 
 @media only screen and (max-width: 1200px) {
     .container-badge {
