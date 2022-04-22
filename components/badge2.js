@@ -27,6 +27,7 @@ const Badge2 = ({title, handle, url, }) => {
         <Link href={url}>
             <motion.div
                 whileTap={{ scale: 0.95}}
+                whileHover={{ scale: 0.99}}
                 className="container2-badge"
             >
                 <div className="badge2-links">
