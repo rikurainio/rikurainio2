@@ -60,25 +60,40 @@ code {
 }
 
 .container-home {
+  padding-top: 3rem;
   background-color: white;
-  min-height: 30rem;
+  min-height: 40rem;
 }
 
 .container-aboutme {
   padding-top: 3rem;
-  min-height: 30rem;
+  min-height: 40rem;
   background-color: rgba(231, 231, 231, 0.363);
 }
 
 .container-skills {
+  
+  /*
+  background-image: url('/ocean2.png');
+  content: "";
+  */
+  /*
+  background: linear-gradient(225deg, #b8e2ff 0%, #c972e9 100%);
+  */
+  background: linear-gradient(225deg, #e0f2ff 0%, #e4b8f5 100%);
+
+
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: white;
   padding-top: 5rem;
-  min-height: 25rem;
+  min-height: 40rem;
 }
 
 .container-projects {
   padding-top: 5rem;
   background-color: rgba(231, 231, 231, 0.363);
+  min-height: 40rem;
 }
 
 .container-badges {
@@ -97,7 +112,7 @@ code {
   background-color: #914ceb9f;
   width: 100vw;
   padding-top: 2rem;
-  min-height: 15rem;
+  min-height: 42rem;
 }
 
 /* SKILLS STUFF */
