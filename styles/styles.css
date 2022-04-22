@@ -1,6 +1,6 @@
 
 main {
-    padding: 3rem 0;
+    padding: 0rem 0;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,10 @@ main {
   }
 
 html, body {
-    font-size: 24px;
+    width: 100vw;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-size: 22px;
     font-family: 'Noto Sans', sans-serif;
 }
 
@@ -47,7 +50,6 @@ code {
 
 /* ALL THE BIG CONTENT CONTAINERS */
 .container {
-  padding-left: 20px; 
   padding-right: 20px;
 }
 
@@ -70,17 +72,25 @@ code {
 }
 
 .container-projects {
-
+  padding-top: 5rem;
 }
 
 .container-badges {
   margin: 2rem;
   display: flex;
+  justify-content: center;
+}
+
+.container-badges2 {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 .container-contact {
-  padding-top: 5rem;
-  min-height: 30rem;
+  width: 100vw;
+  padding-top: 2rem;
+  min-height: 15rem;
 }
 
 /* SKILLS STUFF */

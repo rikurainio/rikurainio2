@@ -1,8 +1,13 @@
 import Link from 'next/link'
+import { motion } from "framer-motion"
 
 const Badge = ({title, imgLink, description, githubLink, projectLink, techList}) => {
     return (
-        <div className="container-badge">
+        <motion.div
+            className="container-badge"
+            whileHover={{scale: 1, transition: { duration: 0.01 }}}    
+        >
+                
             <div className="badge-title">
                 {title}
             </div>
@@ -20,7 +25,7 @@ const Badge = ({title, imgLink, description, githubLink, projectLink, techList})
                 { techList.map((tech, idx) => <div className='badge-tech-tag' key={'tech-' + idx}>{tech}</div>) }
             </div>
 
-        </div>
+        </motion.div>
     )
 }
 

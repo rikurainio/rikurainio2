@@ -3,6 +3,9 @@ import Image from 'next/image'
 import Badge from '../components/badge'
 import Heading from '../components/heading'
 import Quote from '../components/quote'
+import { motion } from "framer-motion"
+import Heading2 from '../components/heading2'
+import Badge2 from '../components/badge2'
 
 const INFO = '<p> a computer science student from Finland. Creating smooth, beautiful and interactive frontends with React is what gives me joy </p>'
 
@@ -38,6 +41,8 @@ export default function Home() {
         <div className='container-skills' id='skills'>
           <Heading text='Skills'/>
 
+          <Heading2 text='Languages and Frameworks'/>
+
           <div className='logos-languages'>
             <img className='logo' src='logo-cpp-purple.png' width={'100px'} />
             <img className='logo' src='logo-react-purple.png' width={'120px'}/>
@@ -46,6 +51,14 @@ export default function Home() {
             <img className='logo' src='logo-typescript-purple.png' width={'100px'}/>
             <img className='logo' src='logo-nextjs.png' width={'100px'}/>
             <img className='logo' src='logo-nodejs-purple.png' width={'100px'}/>
+          </div>
+
+          <Heading2 text='Database'/>
+
+          <div className='logos-languages'>
+            <img className='logo' src='logo-mongodb-purple.png' width={'100px'}/>
+            <img className='logo' src='logo-firebase-purple.png' width={'120px'} />
+            <img className='logo' src='logo-redis-purple.png' width={'100px'}/>
           </div>
 
         </div>
@@ -101,6 +114,32 @@ export default function Home() {
         </div>
         <div className='container-contact' id='contact'>
           <Heading text='Contact'/>
+
+          <div className='container-badges2'>
+            <Badge2
+              title='Email'
+              handle='rainioriku@gmail.com'
+              url='mailto:rainioriku@gmail.com'
+            />
+            <Badge2
+              title='Instagram'
+              handle='Oiniar'
+              url='https://www.instagram.com/oiniar/?hl=en'
+            />
+            <Badge2
+              title='Discord'
+              handle='Rhan#5498'
+              url='https://discord.com/users/107596792421449728'
+            />
+            
+            <Badge2
+              title='Twitter'
+              handle='RhanLoL'
+              url='https://twitter.com/RhanLoL'
+            />
+            
+          </div>
+          
         </div>
 
       </main>

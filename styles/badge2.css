@@ -1,31 +1,26 @@
-.container-badge {
+.container2-badge {
     width: 15em;
     max-height: 20em;
     margin-left: 1rem;
     margin-right: 1rem;
     padding: 1.5rem;
     background-color: rgba(228, 228, 228, 0.658);
-
-
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
+
+    display: flex;
 }
 
-.badge-title {
+.badge2-title {
     font-size: 32px;
     font-weight: 500;
 }
 
-.badge-links {
+.badge2-links {
     display: flex;
 }
 
-.container-badge-icons {
-    width: 10px;
-    height: 10px;
-}
-
-.badge-link-img {
+.badge2-link-img {
     padding-left: .3rem;
     padding-right: .3rem;
     width: 2rem;
@@ -34,15 +29,15 @@
     cursor: pointer;
 }
 
-.badge-link-img:hover {
+.badge2-link-img:hover {
     filter: invert(22%) sepia(74%) saturate(5058%) hue-rotate(267deg) brightness(86%) contrast(102%);
 }
 
-.badge-technique-tags {
+.badge2-technique-tags {
     margin-top: 1rem;
 }
 
-.badge-tech-tag {
+.badge2-tech-tag {
     display: inline-block;
 
     margin: .15rem;

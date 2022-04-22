@@ -6,6 +6,8 @@ import '../styles/quote.css'
 import '../styles/heading.css'
 import '../styles/rows.css'
 import '../styles/badge.css'
+import '../styles/heading2.css'
+import '../styles/badge2.css'
 
 export default function MyApp({ Component, pageProps }) {
   return (
