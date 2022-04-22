@@ -1,0 +1,25 @@
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .container-quote {
+        width: 20rem;
+        text-align: left;
+    }
+  }
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .container-quote {
+        width: 20rem;
+        text-align: left;
+    }
+  }
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .container-quote {
+        width: 20rem;
+        text-align: left;
+    }
+  }
+  @media only screen and (min-width: 1025px) {
+    .container-quote {
+        width: 25rem;
+        text-align: left;
+    }
+  }

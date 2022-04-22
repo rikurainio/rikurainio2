@@ -1,0 +1,124 @@
+
+main {
+    padding: 3rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+html, body {
+    font-size: 24px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+a {
+  position: relative;
+  color: black;
+  text-decoration: none;
+}
+
+a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #18272F;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom;
+    transform: scaleX(0);
+    transition: transform .1s ease-in-out;
+}
+
+a:hover::before {
+  transform-origin: top;
+  transform: scaleX(1);
+}
+
+code {
+  background: #fafafa;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+/* ALL THE BIG CONTENT CONTAINERS */
+.container {
+  padding-left: 20px; 
+  padding-right: 20px;
+}
+
+.container-main {
+  min-height: 100vh;
+}
+
+.container-home {
+  min-height: 30rem;
+}
+
+.container-aboutme {
+  padding-top: 5rem;
+  min-height: 30rem;
+}
+
+.container-skills {
+  padding-top: 5rem;
+  min-height: 30rem;
+}
+
+.container-projects {
+
+}
+
+.container-badges {
+  margin: 2rem;
+  display: flex;
+}
+
+.container-contact {
+  padding-top: 5rem;
+  min-height: 30rem;
+}
+
+/* SKILLS STUFF */
+
+.logos-languages {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  body {
+    font-size: 16px;
+    background-color: rgb(120, 182, 202);
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  body {
+    font-size: 16px;
+    background-color: rgb(121, 189, 212);
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  body {
+    font-size: 18px;
+    background-color: rgb(120, 202, 161);
+  }
+}
+@media only screen and (min-width: 1025px) {
+  body {
+    font-size: 20px;
+    background-color: rgb(247, 247, 247);
+  }
+}
+

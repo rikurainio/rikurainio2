@@ -1,0 +1,45 @@
+.container-badge {
+    width: 15em;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1.5rem;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.badge-title {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.badge-links {
+    display: flex;
+}
+
+.container-badge-icons {
+    width: 10px;
+    height: 10px;
+}
+
+.badge-link-img {
+    padding-left: .3rem;
+    padding-right: .3rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.badge-technique-tags {
+    margin-top: 1rem;
+}
+
+.badge-tech-tag {
+    display: inline-block;
+
+    margin: .1rem;
+    padding: .1rem;
+    font-size: 16px;
+    font-weight: 300;
+    border: 1px solid rgba(104, 104, 104, 0.295);
+    border-radius: 5px;
+}
