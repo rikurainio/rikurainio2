@@ -39,16 +39,16 @@ export default function Home() {
           <Heading text='About me'/>
         </div>
         <div className='container-skills' id='skills'>
-          <Heading text='Skills'/>
+          <Heading text='Skills'/>    
 
           <Heading2 text='Languages and Frameworks'/>
 
           <div className='logos-languages'>
-            <img className='logo' src='logo-cpp-purple.png' width={'50px'} />
-            <img className='logo' src='logo-react-purple.png' width={'60px'}/>
-            <img className='logo' src='logo-python-purple.png' width={'48px'}/>
-            <img className='logo' src='logo-js-purple2.png' width={'50px'}/>
-            <img className='logo' src='logo-typescript-purple.png' width={'50px'}/>
+            <img className='logo' src='logo-cpp-purple.png' width={'63px'} />
+            <img className='logo' src='logo-react-purple.png' width={'73px'}/>
+            <img className='logo' src='logo-python-purple.png' width={'59px'}/>
+            <img className='logo' src='logo-js-purple2.png' width={'58px'}/>
+            <img className='logo' src='logo-typescript-purple.png' width={'58px'}/>
             <img className='logo' src='logo-nextjs.png' width={'90px'}/>
             <img className='logo' src='logo-nodejs-purple.png' width={'90px'}/>
           </div>
@@ -56,9 +56,9 @@ export default function Home() {
           <Heading2 text='Database'/>
 
           <div className='logos-languages'>
-            <img className='logo' src='logo-mongodb-purple.png' width={'72px'}/>
-            <img className='logo' src='logo-firebase-purple.png' width={'82px'} />
-            <img className='logo' src='logo-redis-purple.png' width={'72px'}/>
+            <img className='logo' src='logo-mongodb-purple.png' width={'90px'}/>
+            <img className='logo' src='logo-firebase-purple.png' width={'90px'} />
+            <img className='logo' src='logo-redis-purple.png' width={'90px'}/>
           </div>
 
         </div>
