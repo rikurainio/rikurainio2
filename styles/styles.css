@@ -71,11 +71,14 @@ code {
 }
 
 .container-abouts {
+  padding: .5rem;
   display: flex;
   justify-content: center;
 }
 
 .container-abouts-right-side {
+  padding: .5rem;
+
   text-align: right;
 
   display: flex;
@@ -84,6 +87,8 @@ code {
 }
 
 .container-abouts-left-side {
+  padding: .5rem;
+
   text-align: left;
 
   display: flex;
@@ -112,16 +117,9 @@ code {
 }
 
 .container-skills {
-  
-  /*
-  background-image: url('/ocean2.png');
-  content: "";
-  */
-  /*
-  background: linear-gradient(225deg, #b8e2ff 0%, #c972e9 100%);
-  */
-  background: linear-gradient(225deg, #e0f2ff 0%, #e4b8f5 100%);
+  padding: 1rem;
 
+  background: linear-gradient(225deg, #e0f2ff 0%, #e4b8f5 100%);
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -152,7 +150,6 @@ code {
   background-color: #ddd2e281;
   width: 100vw;
   padding-top: 2rem;
-  min-height: 20rem;
 }
 
 /* SKILLS STUFF */
@@ -162,9 +159,33 @@ code {
   justify-content: center;
   align-content: center;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .logo {
   margin-left: .5rem;
   margin-right: .5rem;
+}
+
+.container-quote {
+  padding: 2rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 960px) {
+  .container-badges, .container-badges2, .logos-languages, .container-abouts, .container-home {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .avatar {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .about-text, .container-home {
+    font-size: 15px;
+    max-width: 170px;
+    text-align: center;
+  }
 }

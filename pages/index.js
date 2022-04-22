@@ -18,23 +18,15 @@ export default function Home() {
       </Head>
 
       <main className='container-main'>
-
-        <div className='container-home'>
-
-          <div className='container-row-1'>
-            <p className='heading-name'> Riku Rainio</p>
+          <div className='home1'>
+            <div className='container-row-1'>
+              <p className='heading-name'> Riku Rainio</p>
+            </div>
+            <div className='container-row-2'>
+              <Quote text={INFO} />
+              <img className='avatar' src='/riku2.png'></img>
+            </div>
           </div>
-          <div className='container-row-2'>
-            <Quote text={INFO} />
-            <img className='avatar' src='/riku2.png'></img>
-          </div>
-          <div className='container-row-3'>
-
-          </div>
-          <div className='container-row-4'>
-
-          </div>
-        </div>
 
         <div className='container-aboutme' id='aboutme'>
           <Heading text='About me'/>
