@@ -64,6 +64,27 @@ code {
   min-height: 100vh;
 }
 
+.container-abouts {
+  display: flex;
+  justify-content: center;
+}
+
+.container-abouts-right-side {
+  text-align: right;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-abouts-left-side {
+  text-align: left;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .container-home {
   padding-top: 3rem;
   background-color: white;
@@ -71,9 +92,17 @@ code {
 }
 
 .container-aboutme {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
   padding-top: 3rem;
   min-height: 20rem;
   background-color: rgba(231, 231, 231, 0.363);
+}
+
+.about-text {
+  margin: 1rem;
+  width: 25rem;
 }
 
 .container-skills {

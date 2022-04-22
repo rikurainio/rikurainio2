@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 import Heading2 from '../components/heading2'
 import Badge2 from '../components/badge2'
 
-const INFO = '<p> a computer science student from Finland. Creating smooth, beautiful and interactive frontends with React is what gives me joy </p>'
+const INFO = 'Computer Science student from Finland. Creating smooth, beautiful and interactive frontends with React (and why not with other technologies too) is what gives me joy.'
 
 export default function Home() {
   return (
@@ -37,6 +37,39 @@ export default function Home() {
 
         <div className='container-aboutme' id='aboutme'>
           <Heading text='About me'/>
+
+          <div className='container-abouts'>
+            <div className='container-abouts-right-side'>
+              <div className='about-text'>
+              <Heading2 text='Studies'/>
+                Currently studying Master's courses. Every course for Bachelor's degree is done and I am trying to hurry to finally
+                finish the Bachelors thesis. I believe landing a job is the moment when I get to really elevate my developer skillset.
+              </div>
+              <div className='about-text'>
+              <Heading2 text='How am I as a person'/>
+                With one word, understanding. I get along with everyone and focus on the things I love.
+              </div>
+            </div>
+
+            <div className='container-abouts-left-side'>
+              <div className='about-text'>
+              <Heading2 text='Workout'/>
+                Working out has a dear place in my heart since it's fun, keeps one healthy and gives one energy.
+                It also teaches discipline. I have been doing a street workout form called Calisthenics for about five years.
+              </div>
+              <div className='about-text'>
+              <Heading2 text='Gaming'/>
+                I run a small gaming team/community called Erasion Gaming. We have a small history of playing in tournaments together as a team.
+                The team was found from desire to play as a team. Doing things with a community feels fullfilling because you get to connect
+                with people and make good memories together.
+              </div>
+              <div className='about-text'>
+              <Heading2 text='Creative Stuff'/>
+                From time to time I do some visuals for friends. This is usually some simple graphics work like editing/creating graphics.
+              </div>
+            </div>
+          </div>
+          
         </div>
         <div className='container-skills' id='skills'>
           <Heading text='Skills'/>    
