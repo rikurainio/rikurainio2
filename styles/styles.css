@@ -67,6 +67,7 @@ code {
 .container-aboutme {
   padding-top: 5rem;
   min-height: 30rem;
+  background-color: rgba(231, 231, 231, 0.363);
 }
 
 .container-skills {
@@ -77,6 +78,7 @@ code {
 
 .container-projects {
   padding-top: 5rem;
+  background-color: rgba(231, 231, 231, 0.363);
 }
 
 .container-badges {
