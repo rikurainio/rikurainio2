@@ -58,6 +58,7 @@ code {
 }
 
 .container-home {
+  background-color: white;
   min-height: 30rem;
 }
 
@@ -67,6 +68,7 @@ code {
 }
 
 .container-skills {
+  background-color: white;
   padding-top: 5rem;
   min-height: 30rem;
 }
@@ -88,6 +90,7 @@ code {
 }
 
 .container-contact {
+  background-color: #914ceb9f;
   width: 100vw;
   padding-top: 2rem;
   min-height: 15rem;
