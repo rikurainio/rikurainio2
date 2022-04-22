@@ -86,7 +86,7 @@ code {
 }
 
 .container-badges2 {
-  margin: 2rem;
+  margin: 1rem;
   display: flex;
   justify-content: center;
 }
@@ -113,26 +113,46 @@ code {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+  .container-badges, .container-badges2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   body {
     font-size: 16px;
-    background-color: rgb(120, 182, 202);
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {
+  .container-badges, .container-badges2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   body {
     font-size: 16px;
-    background-color: rgb(121, 189, 212);
   }
 }
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 769px) and (max-width: 1300px) {
+  .container-badges, .container-badges2 {
+    font-size: .9rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   body {
     font-size: 18px;
-    background-color: rgb(120, 202, 161);
   }
 }
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1300px) and (max-width: 1550px) {
+  .container-badges, .container-badges2 {
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
   body {
-    font-size: 20px;
+    font-size: 1rem;
     background-color: rgb(247, 247, 247);
   }
 }

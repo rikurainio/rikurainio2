@@ -26,8 +26,8 @@ const Badge2 = ({title, handle, url, }) => {
     return (
         <Link href={url}>
             <motion.div
+                whileTap={{ scale: 0.95}}
                 className="container2-badge"
-                whileHover={{scale: 1, transition: { duration: 0.01 }}}    
             >
                 <div className="badge2-links">
                     <img className='badge2-link-img' src={getCorrectIconSrc(title)}></img>
