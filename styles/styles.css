@@ -64,6 +64,12 @@ code {
   min-height: 100vh;
 }
 
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+
 .container-abouts {
   display: flex;
   justify-content: center;

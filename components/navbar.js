@@ -2,9 +2,6 @@
 const Navbar = () => {
     return (
         <div className="container-navbar">
-            <div className="navbar-logo">
-                R
-            </div>
 
             <div className="navbar-items">
                 <div className="navbar-item">

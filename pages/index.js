@@ -26,6 +26,7 @@ export default function Home() {
           </div>
           <div className='container-row-2'>
             <Quote text={INFO} />
+            <img className='avatar' src='/riku2.png'></img>
           </div>
           <div className='container-row-3'>
 
