@@ -5,7 +5,7 @@ const Badge = ({title, imgLink, description, githubLink, projectLink, techList})
     return (
         <motion.div
             className="container-badge"
-            whileHover={{scale: 1, transition: { duration: 0.01 }}}    
+            whileHover={{scale: 1.05, transition: { duration: 0.2 }}}    
         >
                 
             <div className="badge-title">
