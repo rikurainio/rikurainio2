@@ -15,14 +15,13 @@
 }
 
 .badge2-link-img {
-    padding-left: .3rem;
     padding-right: .6rem;
     width: 2.7rem;
     cursor: pointer;
 }
 
 .container2-badge:hover {
-    box-shadow: 0 0 0 1px #4242420a;
+    box-shadow: 0 0 0 1px #9b9b9b0a;
 }
 
 @media only screen and (max-width: 1200px) {

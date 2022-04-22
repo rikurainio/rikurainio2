@@ -11,10 +11,8 @@ const Badge = ({title, imgLink, description, githubLink, projectLink, techList})
             <div className="badge-title">
                 {title}
             </div>
-            <div className="badge-image">
-                <img src={imgLink} />
-            </div>
-            <div className="badge-descriptions">
+           
+            <div className="badge-description">
                 <p>{description}</p>
             </div>
             <div className="badge-links">
@@ -24,7 +22,6 @@ const Badge = ({title, imgLink, description, githubLink, projectLink, techList})
             <div className='badge-technique-tags'>
                 { techList.map((tech, idx) => <div className='badge-tech-tag' key={'tech-' + idx}>{tech}</div>) }
             </div>
-
         </motion.div>
     )
 }

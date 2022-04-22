@@ -1,5 +1,6 @@
 .container-badge {
     width: 15em;
+    min-width: 10rem;
     max-height: 20em;
     margin: 1rem;
 
@@ -45,7 +46,7 @@
 
     margin: .15rem;
     padding: .25rem;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 300;
     border: 1px solid rgb(147, 39, 248);
     color: whi;
@@ -53,9 +54,46 @@
     
 }
 
-@media only screen and (max-width: 1200px) {
+
+@media only screen and (max-width: 800px) {
+
     .container-badge {
         display: flex;
         flex-direction: column;
+    }
+    .badge-technique-tags {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .badge-title {
+        font-size: 20px;
+    }
+    .badge-description {
+        font-size: .6rem;
+    }
+    .badge-tech-tag {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: .6rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .container-badge {
+        margin: .5rem
+    }
+    .badge-tech-tag {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: .6rem;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .badge-tech-tag {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: .6rem;
     }
 }
