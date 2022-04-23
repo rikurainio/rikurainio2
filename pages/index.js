@@ -53,7 +53,7 @@ export default function Home() {
               <div className='about-text'>
               <Heading2 text='Gaming'/>
                 I run a small gaming team/community called Erasion Gaming. We have a small history of playing in tournaments together as a team.
-                The team was found from desire to play as a team. Doing things with a community feels fullfilling because you get to connect
+                The team was found from desire to play as a team. Doing things with a community feels fulfilling because you get to connect
                 with people and make good memories together.
               </div>
               <div className='about-text'>
