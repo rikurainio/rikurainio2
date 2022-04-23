@@ -29,7 +29,7 @@ export default function Home() {
           </div>
 
         <div className='container-aboutme' id='aboutme'>
-          <Heading text='About me'/>
+          <Heading text='About'/>
 
           <div className='container-abouts'>
             <div className='container-abouts-right-side'>
