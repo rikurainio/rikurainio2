@@ -108,7 +108,7 @@ code {
   align-content: center;
   padding-top: 3rem;
   min-height: 20rem;
-  background-color: rgba(231, 231, 231, 0.363);
+  background-color: white;
 }
 
 .about-text {
@@ -119,7 +119,7 @@ code {
 .container-skills {
   padding: 1rem;
 
-  background: linear-gradient(225deg, #e0f2ff 0%, #e4b8f5 100%);
+  background: linear-gradient(225deg, #f5fbff 0%, #fcf5ff 100%);
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -130,7 +130,7 @@ code {
 
 .container-projects {
   padding-top: 3rem;
-  background-color: rgba(242, 237, 243, 0.342);
+  background-color: white;
   min-height: 40rem;
 }
 
@@ -147,7 +147,7 @@ code {
 }
 
 .container-contact {
-  background-color: #ddd2e281;
+  background-color: #fafafa81;
   width: 100vw;
   padding-top: 2rem;
 }
