@@ -9,16 +9,16 @@ const Badge2 = ({title, handle, url, }) => {
     // GET EITHER DISCORD, TWITTER, INSTAGRAM OR EMAIL LOGO
     const getCorrectIconSrc = (title) => {
         if(title === 'Discord'){
-            return 'logo-discord.png'
+            return 'discordii.webp'
         }
         if(title === 'Twitter'){
-            return 'logo-twitter.png'
+            return 'twitteri.png'
         }
         if(title === 'Instagram'){
-            return 'logo-instagram.png'
+            return 'instagram.png'
         }
         if(title === 'Email'){
-            return 'logo-email.png'
+            return 'gmaili.png'
         }
         return ''
     }
