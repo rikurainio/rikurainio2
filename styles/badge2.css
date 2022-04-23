@@ -25,5 +25,19 @@
     box-shadow: 0 0 0 1px #9b9b9b0a;
 }
 
+.badge2-links-Email {
+    margin-top: 5px;
+}
+.badge2-links-Instagram {
+    margin-top: 2px;
+}
+.badge2-links-Discord {
+    margin-top: 1px;
+}
+.badge2-links-Twitter {
+    margin-top: 2px;
+}
+
+
 @media only screen and (max-width: 1200px) {
 }

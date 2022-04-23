@@ -30,7 +30,7 @@ const Badge2 = ({title, handle, url, }) => {
                 whileHover={{ scale: 0.99}}
                 className="container2-badge"
             >
-                <div className="badge2-links">
+                <div className={"badge2-links-" + title}>
                     <img className='badge2-link-img' src={getCorrectIconSrc(title)}></img>
                 </div>
                 <div className="badge2-socials-details">
