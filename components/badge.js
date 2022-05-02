@@ -16,8 +16,8 @@ const Badge = ({title, imgLink, description, githubLink, projectLink, techList})
                 <p>{description}</p>
             </div>
             <div className="badge-links">
-                    <Link href={githubLink}><img className='badge-link-img' src='github.svg'></img></Link>
-                    {projectLink !== '' ? <Link href={projectLink}><img className='badge-link-img' src='icon-website.jpg'></img></Link> : null}
+                    <Link href={githubLink}><img className='badge-link-img' src='github.svg' ></img></Link>
+                    {projectLink !== '' ? <Link href={projectLink}><img className='badge-link-img-2' src='icon-website.jpg'></img></Link> : null}
             </div>
             <div className='badge-technique-tags'>
                 { techList.map((tech, idx) => <div className='badge-tech-tag' key={'tech-' + idx}>{tech}</div>) }

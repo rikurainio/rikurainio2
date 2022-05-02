@@ -22,11 +22,27 @@
     padding-right: .3rem;
     height: 2rem;
     cursor: pointer;
+
+    filter:contrast(30%)
+}
+
+.badge-link-img-2 {
+    padding-left: .3rem;
+    padding-right: .3rem;
+    height: 2rem;
+    cursor: pointer;
+
+    filter:contrast(26%)
 }
 
 .badge-link-img:hover {
-    filter: invert(22%) sepia(74%) saturate(5058%) hue-rotate(267deg) brightness(56%) contrast(102%);
+    filter: invert(22%) sepia(74%) saturate(5058%) hue-rotate(252deg) brightness(56%) contrast(102%);
 }
+
+.badge-link-img-2:hover {
+    filter: invert(22%) sepia(74%) saturate(5058%) hue-rotate(252deg) brightness(56%) contrast(102%);
+}
+
 
 .badge-technique-tags {
     margin-top: .5rem;
@@ -40,7 +56,6 @@
     font-size: 13px;
     font-weight: 400;
     border: 1px solid rgb(147, 39, 248);
-    color: whi;
     border-radius: 5px;
     
 }

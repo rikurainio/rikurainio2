@@ -84,7 +84,7 @@ export default function Home() {
           <div className='logos-languages'>
             <img className='logo' src='logo-mongodb-purple.png' width={'90px'}/>
             <img className='logo' src='logo-firebase-purple.png' width={'90px'} />
-            <img className='logo' src='logo-redis-purple.png' width={'90px'}/>
+            {/*<img className='logo' src='logo-redis-purple.png' width={'90px'}/>*/}
           </div>
 
         </div>
@@ -102,6 +102,15 @@ export default function Home() {
                 />
 
               <Badge
+                title='Ikkiar | Discord.js bot + Next.js site'
+                imglink=''
+                description='Discord bot that runs on simple Node.Js backend and uses MongoDB as its&apos; database'
+                githubLink='https://github.com/rikurainio/ikkiar-bot'
+                projectLink='https://ikkiar.club'
+                techList={['Node.js', 'Next.js', 'MongoDB', 'Discord.js']}
+                />
+
+              <Badge
                 title='React-Svelte Comparison'
                 imglink=''
                 description='Selenium script that runs different DOM operations to similar React & Svelte web pages and logs the result'
@@ -114,19 +123,12 @@ export default function Home() {
                 title='Example NFT minting project'
                 imglink=''
                 description='A very basic project to test how Ethereum blockchain smart contracts can be written by using Solidity and ERC721 Token standard'
-                githubLink='https://github.com/rikurainio/svelte-react-comparison'
+                githubLink='https://github.com/rikurainio/rikusnft'
                 projectLink=''
                 techList={['Solidity', 'React']}
                 />
 
-              <Badge
-                title='Ikkiar Discord Bot'
-                imglink=''
-                description='Discord bot that runs on simple Node.Js backend and uses MongoDB as its&apos; database'
-                githubLink='https://github.com/rikurainio/svelte-react-comparison'
-                projectLink=''
-                techList={['Node.js', 'MongoDB', 'Discord.js']}
-                />
+              
             </div>
             
 

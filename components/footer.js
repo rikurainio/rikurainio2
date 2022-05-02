@@ -3,7 +3,7 @@ const Footer = () => {
         <div className="container-footer">
             <div className="footer-items">
                 <div className="footer-item-1">
-                    <img alt='GitHub' src='github.svg'/>
+                    <img className="footer-logo" alt='GitHub' src='github.svg'/>
                 </div>
             </div>
 
