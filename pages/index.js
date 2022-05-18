@@ -74,7 +74,6 @@ export default function Home() {
             <img className='logo' src='logo-react-purple.png' width={'73px'}/>
             <img className='logo' src='logo-python-purple.png' width={'59px'}/>
             <img className='logo' src='logo-js-purple2.png' width={'58px'}/>
-            <img className='logo' src='logo-typescript-purple.png' width={'58px'}/>
             <img className='logo' src='logo-nextjs.png' width={'90px'}/>
             <img className='logo' src='logo-nodejs-purple.png' width={'90px'}/>
           </div>
